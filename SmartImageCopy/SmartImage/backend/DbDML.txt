@@ -1,0 +1,43 @@
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (18, 'a', 700, 'a','a', 07, 31.477267, 35.000351);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (19, 'a', 300, 'a','a', 07, 31.871779, 35.396387);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (20, 'a', 150, 'a','a', 07, 32.182056, 35.411591);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (21, 'a', 400, 'a','a', 07, 31.938348, 35.102494);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (22, 'a', 150, 'a','a', 07, 32.058329, 35.210965);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (23, 'a', 70, 'a','a', 07, 32.237135, 35.062752);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (24, 'a', 300, 'a','a', 07, 32.349803, 35.444467);
+
+INSERT INTO troops(id, commander, amount, base, type, phone, longitude, latitude)
+VALUES (25, 'a', 200, 'a','a', 07, 32.434502, 35.190448);
+
+UPDATE sensor
+SET "isWorking" = false
+WHERE name = 'מצלמת הרתעה' OR name = 'מצלמת כיפה';
+
+//need to put in script
+
+DELETE FROM event;
+INSERT INTO event(longitude, latitude, name, "injuredAmount")
+VALUES (31.823511, 35.463867, 'test1', 30),
+(31.970499, 35.359497, 'test2', 200),
+(31.983984, 35.145264, 'test3', 17),
+(32.095801, 35.032654, 'test4', 8),
+(32.395632, 35.282593, 'test5', 5),
+(32.143891, 35.492706, 'test5', 8),
+(32.067941, 34.863615, 'test6', 30),
+(32.068796, 34.864891, 'test7', 200),
+(32.068615, 34.865685, 'test8', 17),
+(32.068071, 34.864541, 'test9', 8),
+(32.068325, 34.864938, 'test10', 5);

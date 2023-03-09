@@ -1,0 +1,23 @@
+on server: 
+npm install
+npm ci
+npm run start
+
+(if not working can try: cls)
+
+to install:
+npm i vue-sweetalert2
+npm install chart.js
+npm install moment
+npm i bootstrap-vue
+npm install axios
+
+
+on client:
+npm ci
+npm run serve
+
+to install:
+npm install vue-snotify --save
+npm install axios
+npm install leaflet vue2-leaflet --save
